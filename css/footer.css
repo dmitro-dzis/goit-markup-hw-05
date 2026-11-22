@@ -100,7 +100,7 @@
 }
 
 /* Email input */
-.modal-form-input {
+.footer-modal-form-input {
   width: 264px;
   height: 40px;
   padding: 8px 16px;
@@ -112,14 +112,19 @@
 
   font-family: inherit;
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #ffffff;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-input::placeholder {
+.footer-modal-form-input::placeholder {
   color: #ffffff;
   opacity: 1;
+}
+.footer-modal-form-input:hover,
+.footer-modal-form-input:focus {
+  border-color: #31d0aa;
 }
 
 /* Subscribe button */
@@ -150,11 +155,11 @@
 
 .modal-form-button:hover,
 .modal-form-button:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 /* Paper-plane icon */
-.modal-form-icon {
+.footer-modal-form-icon {
   display: block;
   width: 24px;
   height: 20px;
